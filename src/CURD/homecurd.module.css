@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+#nav>a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 1px 1px 2px;
+}
+#myform{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgb(5, 72, 72),rgb(0, 109, 128),aqua);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myform>form{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border-radius: 10px;
+}
+#myform>form>button{
+    height: 30px;
+    width: 120px;
+    margin-top: 15px;
+    background: gray;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+#box{
+    height: 90vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+#profile{
+    height:200px;
+    width: 200px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 10px;
+}
+td{
+    padding: 10px;
+}
+#btn{
+    height: 22px;
+    width: 60px;
+    background-color:rgb(145, 215, 215);
+    border-radius: 50px;
+
+}
+#btn>a{
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    font-weight: bolder;
+}
+#del:hover{
+    transform:scale(1.1);
+}
+#del{
+    height: 22px;
+    width: 60px;
+    background-color:rgb(145, 215, 215);
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 9px;
+    font-weight: bolder;
+}
+
